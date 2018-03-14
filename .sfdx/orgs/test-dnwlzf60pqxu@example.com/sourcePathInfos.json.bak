@@ -1,0 +1,107 @@
+[
+    [
+        "D:\\Test\\3-13\\developer\\admin\\sfdx-dev\\force-app",
+        {
+            "state": "n",
+            "sourcePath": "D:\\Test\\3-13\\developer\\admin\\sfdx-dev\\force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1521009880484,
+            "changeTime": 1521009880484,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "D:\\Test\\3-13\\developer\\admin\\sfdx-dev\\force-app\\main",
+        {
+            "state": "n",
+            "sourcePath": "D:\\Test\\3-13\\developer\\admin\\sfdx-dev\\force-app\\main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1521009880484,
+            "changeTime": 1521009880484,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Test\\3-13\\developer\\admin\\sfdx-dev\\force-app\\main\\default",
+        {
+            "state": "n",
+            "sourcePath": "D:\\Test\\3-13\\developer\\admin\\sfdx-dev\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1521009880485,
+            "changeTime": 1521009880485,
+            "contentHash": "1adaa84dc07a16d34ede5b9a70713ff832a0f853",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Test\\3-13\\developer\\admin\\sfdx-dev\\force-app\\main\\default\\classes",
+        {
+            "state": "n",
+            "sourcePath": "D:\\Test\\3-13\\developer\\admin\\sfdx-dev\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1521009880485,
+            "changeTime": 1521009880485,
+            "contentHash": "57325e53cc70a4f00cfad981c15b572c6c83b9c4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Test\\3-13\\developer\\admin\\sfdx-dev\\force-app\\main\\default\\classes\\HelloWorld.cls",
+        {
+            "state": "n",
+            "sourcePath": "D:\\Test\\3-13\\developer\\admin\\sfdx-dev\\force-app\\main\\default\\classes\\HelloWorld.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 30,
+            "modifiedTime": 1521009880485,
+            "changeTime": 1521009880485,
+            "contentHash": "654e1e635b83eafce37572111dc22c1aa9cb5f91",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Test\\3-13\\developer\\admin\\sfdx-dev\\force-app\\main\\default\\classes\\HelloWorld.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "D:\\Test\\3-13\\developer\\admin\\sfdx-dev\\force-app\\main\\default\\classes\\HelloWorld.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 179,
+            "modifiedTime": 1521009880486,
+            "changeTime": 1521009880486,
+            "contentHash": "f6f319f126dfc21d5abbffe6c65211457fdfa270",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Test\\3-13\\developer\\admin\\sfdx-dev",
+        {
+            "state": "n",
+            "sourcePath": "D:\\Test\\3-13\\developer\\admin\\sfdx-dev",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1521009880486,
+            "changeTime": 1521009880486,
+            "contentHash": "dc1a76116b67cdf22a22b155fa47fa7dd7a22227",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]

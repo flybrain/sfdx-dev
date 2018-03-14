@@ -1,0 +1,24 @@
+sudo: true
+dist: trusty 
+cache: false
+
+env:
+- URL=https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
+
+before_install:
+#test01
+- export SFDX_AUTOUPDATE_DISABLE=true
+- export SFDX_USE_GENERIC_UNIX_KEYCHAIN=true
+- export SFDX_DOMAIN_RETRY=300
+- wget -qO- $URL | tar xJf -
+- "./sfdx/install"
+- export PATH=./sfdx/$(pwd):$PATH
+- sfdx update
+- sfdx --version
+- sfdx plugins --core
+- sfdx force:auth:jwt:grant --clientid ${CONSUMERKEY} --username ${USERNAME} --jwtkeyfile assets/server.key --setdefaultdevhubusername -a HubOrg
+
+script:
+- mkdir mdapioutput
+- sfdx force:source:convert -d mdapioutput/
+- sfdx force:mdapi:deploy -d mdapioutput/ -u HubOrg -w 100
