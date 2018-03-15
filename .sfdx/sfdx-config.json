@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
     "defaultdevhubusername": "jack@dd.com",
     "defaultusername": "branch2"
+=======
+    "defaultdevhubusername": "DevHub",
+    "defaultusername": "branch"
+>>>>>>> bfe996c6cf5d9d26ff37c5decdf9aa9a698b460c
 }

@@ -1,5 +1,8 @@
 public class HelloWorld {
     public void sayHello() {
-        System.debug('Hello World Baron!');
+        System.debug('Hello World!');
+    }
+    public void sayHelloToBaron() {
+        System.debug('Hello，Baron!');
     }
 }
